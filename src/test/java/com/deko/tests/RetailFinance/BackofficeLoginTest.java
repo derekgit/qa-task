@@ -103,6 +103,16 @@ public class BackofficeLoginTest {
 
     }
 
+    //Additional Tests
+
+    //Reset Password route check
+    //Password Policy Checks
+    //Remember me route check
+    //Styling Checks
+    //Logout Check
+    //Styling Checks (Cross browser /Device)
+
+
 }
 
 
