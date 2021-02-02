@@ -31,6 +31,7 @@ public class BaseRobot {
 
     public BaseRobot(WebDriver driver) {
         this.driver = driver;
+        this.driver.manage().deleteAllCookies();
         this.wait = new WebDriverWait(driver, 15);
         PageFactory.initElements(driver, this);
     }
